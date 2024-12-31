@@ -1,6 +1,6 @@
 # sed-awk-book
 ```
-sed & awkプログラミング:UNIX power tools
+sed & awkプログラミング
 セド アンド オーク プログラミング
 
 Dougherty, Dale(著/文)福崎 俊博(翻訳)
@@ -25,3 +25,8 @@ Appendix A SEDクイックリファレンス
 Appendix B AWKクイックリファレンス
 Appendix C 11章の補足
 ```
+1991年12月21日　初版発行  
+1997年5月31日　第1版第11刷発行  
+  
+Amazon  
+https://www.amazon.co.jp/gp/product/4756100910
