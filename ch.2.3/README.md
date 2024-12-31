@@ -11,3 +11,30 @@ Amy Wilde, 334 Bayshore Pkwy, Mountain View CA
 Sal Carpenter, 73 6th Street, Boston Massachusetts
 $
 ```
+## コマンドラインで複数の命令を指定する
+### セミコロンで命令を区切る
+```
+$ sed 's/ MA/, Massachusetts/; s/ PA/, Pennsylvania/' list
+John Daggett, 341 King Road, Plymouth, Massachusetts
+Alice Ford, 22 East Broadway, Richmond VA
+Orville Thomas, 11345 Oak Bridge Road, Tulsa OK
+Terry Kalkas, 402 Lans Road, Beaver Falls, Pennsylvania
+Eric Adams, 20 Post Road, Sudbury, Massachusetts
+Hubert Sims, 328A Brook Road, Roanoke VA
+Amy Wilde, 334 Bayshore Pkwy, Mountain View CA
+Sal Carpenter, 73 6th Street, Boston, Massachusetts
+$
+```
+### それぞれの命令の前に -e をつける
+```
+$ sed -e 's/ MA/, Massachusetts/' -e 's/ PA/, Pennsylvania/' list
+John Daggett, 341 King Road, Plymouth, Massachusetts
+Alice Ford, 22 East Broadway, Richmond VA
+Orville Thomas, 11345 Oak Bridge Road, Tulsa OK
+Terry Kalkas, 402 Lans Road, Beaver Falls, Pennsylvania
+Eric Adams, 20 Post Road, Sudbury, Massachusetts
+Hubert Sims, 328A Brook Road, Roanoke VA
+Amy Wilde, 334 Bayshore Pkwy, Mountain View CA
+Sal Carpenter, 73 6th Street, Boston, Massachusetts
+$
+```
