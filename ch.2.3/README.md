@@ -51,3 +51,12 @@ Amy Wilde, 334 Bayshore Pkwy, Mountain View, California
 Sal Carpenter, 73 6th Street, Boston, Massachusetts
 $
 ```
+## 入力行の自動表示の抑制
+### -n オプション 出力するには表示コマンドpを入れなければならなくなる
+```
+$ sed -n -e 's/MA/Massachusetts/p' list
+John Daggett, 341 King Road, Plymouth Massachusetts
+Eric Adams, 20 Post Road, Sudbury Massachusetts
+Sal Carpenter, 73 6th Street, Boston Massachusetts
+$
+```
