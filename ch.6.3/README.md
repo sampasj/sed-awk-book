@@ -1,4 +1,4 @@
-# 行の補完
+# 行の保管
 ```
 $ sed -f sed.flip test.flip
 2
