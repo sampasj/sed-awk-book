@@ -1,0 +1,5 @@
+# reduce multiple blank lines to one
+/^$/{
+    N
+    /^\n$/D
+}
