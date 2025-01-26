@@ -42,3 +42,11 @@ This is the end.
 $
 ```
 ## 表示コマンド P
+```
+$ sed -f sed.Print test.Print
+Here are examples of the UNIX Operating
+System. Where UNIX Operating
+System appears, it should be the UNIX
+Operating System.
+$
+```
