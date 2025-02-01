@@ -46,3 +46,19 @@ using these programs can save many hours of repetitive
 work in achieving the same result.</p>
 $
 ```
+# もう１つのケース
+## Lenny の希望。3行以上にまたがったパターンにマッチするようにしたい
+```
+$ sed -f sed.lenny test2
+I want to see \fBwhat will happen\fR if we put the
+font change commands \fBon a set of lines\fR. If I understand
+things (correctly), the \fBthird\fR line causes problems. (No?).
+Is this really the case, or is it (maybe) just something else?
+
+Let's test having two on a line \fBhere\fR and \fBthere\fR as
+well as one that begins on one line and ends \fBsomewhere
+dummy line
+dummy line
+on another line\fR. What if \fBis here\fR on the line?
+$ 
+```
