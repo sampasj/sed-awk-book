@@ -44,6 +44,5 @@ sed and awk are power tools for editing.</p>
 can be done interactively with a text editor. However,
 using these programs can save many hours of repetitive
 work in achieving the same result.</p>
-
 $
 ```
